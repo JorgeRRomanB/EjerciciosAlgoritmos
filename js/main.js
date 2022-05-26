@@ -1,3 +1,9 @@
+function solicitarNum(){
+     let a= prompt("Escribe el primer numero (entre el 1 y el 100): ");
+     let b= prompt("Escribe el segundo numero (entre el 1 y el 100): ");
+     let c= prompt("Escribe el tercer numero (entre el 1 y el 100): ");
+}
+
 //Solicitar 3 números (entre el 1 y el 100)  y definir cual es el mayor
 // let a= prompt("Escribe el primer numero (entre el 1 y el 100): ");
 // let b= prompt("Escribe el segundo numero (entre el 1 y el 100): ");
