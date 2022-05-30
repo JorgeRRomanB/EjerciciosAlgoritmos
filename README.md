@@ -1,7 +1,7 @@
-#Ejercicios de Algoritmos implementados en JavaScript
+# Ejercicios de Algoritmos implementados en JavaScript
 Implementacion de los ejercios de algoritmos
 
-##Se integran los siguientes algoritmos resueltos:
+## Se integran los siguientes algoritmos resueltos:
 
 1. Solicitar 3 números (entre el 1 y el 100)  y definir cual es el mayor
 2. Solicitar 3 números (entre el 1 y el 100)  y definir el menor de tres números
