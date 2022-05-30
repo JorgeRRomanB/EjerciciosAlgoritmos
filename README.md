@@ -9,5 +9,3 @@ Implementacion de los ejercios de algoritmos
 4. Solicitar un entero (entre el 100 y el 200) y determinar si es múltiplo de 3
 5. Elaborar un algoritmo para leer 3 números y determinar sí uno es la suma de los otros dos
 6. Elabora un algoritmo para leer un número y determinar si es par o impar
-
-> **Nota: El punto 3 sigue en desarrollo**
