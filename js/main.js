@@ -1,8 +1,8 @@
-function solicitarNum(){
-     let a= prompt("Escribe el primer numero (entre el 1 y el 100): ");
-     let b= prompt("Escribe el segundo numero (entre el 1 y el 100): ");
-     let c= prompt("Escribe el tercer numero (entre el 1 y el 100): ");
-}
+// function solicitarNum(){
+//      let a= prompt("Escribe el primer numero (entre el 1 y el 100): ");
+//      let b= prompt("Escribe el segundo numero (entre el 1 y el 100): ");
+//      let c= prompt("Escribe el tercer numero (entre el 1 y el 100): ");
+// }
 
 //Solicitar 3 números (entre el 1 y el 100)  y definir cual es el mayor
 // let a= prompt("Escribe el primer numero (entre el 1 y el 100): ");
@@ -16,6 +16,26 @@ function solicitarNum(){
 // if ((a<b)&&(a<c)){console.log("El numero menos es", a);}
 // else if (b<c){console.log("El numero menos es", b);}
 // else {console.log("El numero menos es", c);}
+
+//Realizar un algortimo para adivinar un número entre el 1 y el 100 en el menor número de pasos posibles
+function PedirNumero()
+     {prompt("Escribe tu número(entre el 1 y el 100): ");
+     let inicio=1;
+     let final=100;
+     let mitad;
+     while ((final>=1)&&(inicio<101))
+          {mitad=inicio+Math.floor((final-inicio)/2);
+          if(confirm("Tu Número es ?"+mitad))
+          return mitad;
+          if(confirm("Tu Número es menor a ?"+mitad))
+          final=mitad-1;
+          else
+          inicio=mitad+1;}
+     return -1;}
+ function TuNumeroEs()
+     {const numero = PedirNumero();
+     numero === -1; prompt("Tu número es " + numero);}
+TuNumeroEs();
 
 //Solicitar un entero (entre el 100 y el 200) y determinar si es multiplo de 3
 
